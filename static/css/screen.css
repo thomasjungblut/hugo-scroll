@@ -464,7 +464,9 @@ ul li {
       4. General - The main styles for the the theme
       ========================================================================== */
 
+     
 /* Big cover image on the home page */
+
 #site-head {
   position: relative;
   display: table;
@@ -472,12 +474,25 @@ ul li {
   height: 100%;
   margin-bottom: 0rem;
   text-align: center;
-  color: #fff;
-  background: #b80135 no-repeat center center;
+  color: #fff;  
   background-size: cover;
 }
 
 #site-head:after {
+}
+
+/* Big video on the home page */
+.background-video {
+  bottom: 0;
+  height: 100%;
+  min-width: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: auto;
+  z-index: -100;
 }
 
 /* Yo-logo. Yolo-go. Upload one in ghost/settings/ */

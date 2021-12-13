@@ -28,8 +28,7 @@
   */
  
  audio,
- canvas,
- video {
+ canvas {
      display: inline-block;
  }
  
